@@ -9,7 +9,6 @@ import HotelListing from './pages/HotelListing'
 import HotelListingDetailes from './pages/HotelListingDetailes';
 import HotelSearch from './pages/HotelSearch';
 import Login from './pages/Login'
-import BookingDetailsWithLoging from './pages/BookingDetailsWithLoging';
 import Account from './pages/Account';
 import Favorites from './pages/Favorites';
 import ForgetPassWord from './pages/ForgetPassWord';
@@ -26,8 +25,6 @@ function App() {
   return (
     <>
       {(
-      location.pathname == '/Golobe-X-Front-end' | 
-      location.pathname == '/Golobe-X-Front-end/' | 
       location.pathname == '/' | 
       location.pathname == '/Login' | 
       location.pathname == '/addPay' | 
@@ -35,8 +32,6 @@ function App() {
       ? null : <NavBar logedIn />}
 
       <Routes>
-        <Route path='/Golobe-X-Front-end' element={<LandingPage />} />
-        <Route path='/Golobe-X-Front-end/' element={<LandingPage />} />
         <Route path='/' element={<LandingPage />} />
 
         <Route path='/FlightsSearch' element={<FlightsSearch />} />

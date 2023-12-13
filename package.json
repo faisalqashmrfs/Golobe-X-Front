@@ -1,8 +1,8 @@
 {
   "name": "golobe-x",
-  "homepage":"http://aliModdd98.github.io/Golobe-X-Front-end",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://faisalqashmrfs.github.io/Golobe-X-Front/",
   "type": "module",
   "scripts": {
     "dev": "vite",
